@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><TargetFramework>net6.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><Version>0.1.0</Version></PropertyGroup><ItemGroup>
+<Reference Include="MelonLoader"><HintPath>$(ScheduleIPath)/MelonLoader/net6/MelonLoader.dll</HintPath><Private>false</Private></Reference>
+<Reference Include="Il2CppInterop.Runtime"><HintPath>$(ScheduleIPath)/MelonLoader/net6/Il2CppInterop.Runtime.dll</HintPath><Private>false</Private></Reference>
+<Reference Include="$(ScheduleIPath)/MelonLoader/Il2CppAssemblies/*.dll"><Private>false</Private></Reference>
+<Compile Include="../NativeSavePath.cs" Link="NativeSavePath.cs"/>
+</ItemGroup></Project>

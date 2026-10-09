@@ -1,0 +1,6 @@
+{
+  "game": "Schedule",
+  "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/6.0.36/dotnet-runtime-6.0.36-win-x64.exe",
+  "name": "Microsoft .NET 6 Runtime",
+  "sha512": "a8e493587d741dfc5ab3aeb548e8abae1bc180dfa28cc0aa4ddaf159bdd990644a97d5e987a17e25def1a41947938b0fabcfe35cf9d81df29b2619b54ec3a86c"
+}

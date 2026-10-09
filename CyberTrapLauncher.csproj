@@ -2,8 +2,8 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework>
     <UseWPF>true</UseWPF><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings>
-    <AssemblyName>CyberTrapLauncher</AssemblyName><Version>0.3.0</Version>
+    <AssemblyName>CyberTrapLauncher</AssemblyName><Version>0.1.0</Version>
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
-  <ItemGroup><None Update="frameworks.json" CopyToOutputDirectory="PreserveNewest" /></ItemGroup>
+  <ItemGroup><Compile Remove="guest/**/*.cs"/><None Update="frameworks.json" CopyToOutputDirectory="PreserveNewest" /><None Update="shader.json" CopyToOutputDirectory="PreserveNewest" /><None Update="runtime.json" CopyToOutputDirectory="PreserveNewest" /><None Include="payload/*" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true"/></ItemGroup>
 </Project>

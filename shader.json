@@ -1,0 +1,8 @@
+{
+  "game": "Cyberpunk",
+  "name": "ReShade Standard include",
+  "probe": "",
+  "url": "https://raw.githubusercontent.com/crosire/reshade-shaders/ee30868391d4ad103db60489820102d8fd40e3c1/Shaders/ReShade.fxh",
+  "format": "raw",
+  "sha256": "6DABFBBAF968C3871905D2EA17F96572FF7B1CEC01310B5D0E5252B66B30174F"
+}
