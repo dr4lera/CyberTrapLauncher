@@ -1,0 +1,56 @@
+[
+  {
+    "format": "zip",
+    "sha256": "3a72225c9d2c46c99f4a4159d952b9d24366357c2423eb7ea255c84e9e11c0b0",
+    "url": "https://github.com/wopss/RED4ext/releases/download/v1.30.0/red4ext-1.30.0.zip",
+    "version": "v1.30.0",
+    "name": "WopsS/RED4ext",
+    "probe": "red4ext/RED4ext.dll",
+    "game": "Cyberpunk"
+  },
+  {
+    "format": "zip",
+    "sha256": "799bbd88863f6728616f8d723c941ea15dff71ed5bbfd50c525f0d39ea0bf46b",
+    "url": "https://github.com/jac3km4/redscript/releases/download/v0.5.31/redscript-v0.5.31-windows.zip",
+    "version": "v0.5.31",
+    "name": "jac3km4/redscript",
+    "probe": "engine/tools/scc.exe",
+    "game": "Cyberpunk"
+  },
+  {
+    "format": "zip",
+    "sha256": "102989e199bad650fe6e53395c22bac53fdd7abecc6eeec3b0046886631591f0",
+    "url": "https://github.com/psiberx/cp2077-codeware/releases/download/v1.20.5/Codeware-1.20.5.zip",
+    "version": "v1.20.5",
+    "name": "psiberx/cp2077-codeware",
+    "probe": "red4ext/plugins/Codeware/Codeware.dll",
+    "game": "Cyberpunk"
+  },
+  {
+    "format": "zip",
+    "sha256": "13033a1f10cb1dbfa534964b22e3405aa33e8f29145f17164d318b021402883f",
+    "url": "https://github.com/psiberx/cp2077-tweak-xl/releases/download/v1.11.4/TweakXL-1.11.4.zip",
+    "version": "v1.11.4",
+    "name": "psiberx/cp2077-tweak-xl",
+    "probe": "red4ext/plugins/TweakXL/TweakXL.dll",
+    "game": "Cyberpunk"
+  },
+  {
+    "format": "zip",
+    "sha256": "5b2b2f3d1cd42b59ec886c5bdc2663edae87a0097a4f4a8f58c0965a99dda416",
+    "url": "https://github.com/LavaGang/MelonLoader/releases/download/v0.7.3/MelonLoader.x64.zip",
+    "version": "v0.7.3",
+    "name": "LavaGang/MelonLoader",
+    "probe": "MelonLoader/net6/MelonLoader.dll",
+    "game": "Schedule"
+  },
+  {
+    "format": "zip",
+    "sha256": "F4CC496BD098A0DF4164B81E3737297707F13A47C2478DBA2F60EEFAB784817A",
+    "url": "https://builds.bepinex.dev/projects/bepinex_be/788/BepInEx-Unity.IL2CPP-win-x64-6.0.0-be.788%2B5b766a3.zip",
+    "version": "6.0.0-be.788",
+    "name": "BepInEx IL2CPP",
+    "probe": "BepInEx/core/BepInEx.Unity.IL2CPP.dll",
+    "game": "Nivalis"
+  }
+]
